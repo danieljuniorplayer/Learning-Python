@@ -1,0 +1,7 @@
+git status
+git add .
+git commit -m "descricao"
+git push
+
+git reflog 		#mostra quais versoes foram modificadas
+git reset --hard	#volta uma versao anterior
