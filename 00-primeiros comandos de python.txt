@@ -13,5 +13,3 @@ print(nome,idade,peso)
 
 nome=input('Qual o seu nome?') //nome recebe o resultado do nome
 print(nome)
-
-primeira modificacao
