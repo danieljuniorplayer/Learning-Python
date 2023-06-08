@@ -1,7 +1,25 @@
+#como iniciar um repositorio
+dentro da pasta que vc quer usar, botao direito 
+-> guit bash here
+->git init #cria o arquivo git na pasta
+
+#como adicionar arquivos ao controle de versao
+	git add .
+#como criar versoes do codigo com commit
+git commit -m "descricao"
+#configuracoes iniciais
+git config --global user.email "seu email aqui"
+git config --global user.name "seu usuario aqui"
+
+#enviar alteracoes para nuvem
+git remote add origin  "seu link aqui"
+git push --set-upstream origin master #envia o arquivo para branch master
+git push #envia o arquivo para nuvem
+
+#Resumindo tudo
 git status
 git add .
 git commit -m "descricao"
 git push
-
 git reflog 		#mostra quais versoes foram modificadas
 git reset --hard	#volta uma versao anterior
