@@ -1,0 +1,35 @@
+onde vou estudar?
+	-no meu quarto, na frente do meu computador, em pe ou sentado
+
+Quanto tempo vai durar? 
+	-inicio 08/06/23
+	-final 08/12/23
+Que horas vou acordar?
+	-7 horas da manha, tomar um banho e merendar
+	-quando der 8 horas, revisar o anki
+	-quando der 10horas, finalizar o estudo do ingles
+
+Que horas vai comecar e terminar?
+	-inicio-10 horas da manha
+	-final- 5 da tarde
+
+
+Como vai ser meu controle?
+	-irei preencher um arquivo chamado "Controle de Estudos Python", a cada dia finalizado, marcarei com x
+	-o maximo que eu posso ficar sem estudar e 2 dias
+
+Qual a meta de estudos por tempo?
+	-minimo- 25 min
+	-meta central- 2 horas
+	-maximo- 8 horas
+Como vou dividir o tempo?
+	-inicialmente vou usar o metodo pomodoro
+	-25min estudando + 5min descansando(3X), por fim, 25min estudando + 25min descansando
+	-1 ciclo de pomodoro = 100min estudando e 30min descansando
+
+Tem outro estudo que vai ser feito em conjunto?
+	-sim, lingua inglesa, terminar de revisar o anki
+	-vai ser a primeira coisa que eu vou fazer depois que tomar banho
+Qual vai ser a recompensa?
+	-Quando der 5hs da tarde, correr ou ir para academia
+
