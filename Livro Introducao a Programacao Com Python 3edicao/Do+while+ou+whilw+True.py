@@ -17,8 +17,3 @@ while True:
     else:
         print('Fim Sistema')
         break
-    
-
-
-		
-    
