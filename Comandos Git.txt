@@ -21,5 +21,21 @@ git status
 git add .
 git commit -m "descricao"
 git push
-git reflog 		#mostra quais versoes foram modificadas
-git reset --hard	#volta uma versao anterior
+git reflog 		      #mostra quais versoes foram modificadas
+git reset --hard 3h34h3h	#volta uma versao anterior
+
+# O que são branch?
+-> caminhos diferentes
+git branch	 //mostras quais branch existem
+git branch staging //cria uma nova branch chamada staging
+git checkout staging //altera para branch staging
+
+#subir a branch para nuvem
+git push --set-upstream origin staging
+
+#Subir as informações de uma branch para outra
+git checkout master  //Antes, devemos entrar na branch que vai receber os dados da outra 
+git merge staging //vai mergir o que tá em staging para a branch atual (master)
+
+#Descendo as atualizações do Servidor para Maquina Local
+git pull
