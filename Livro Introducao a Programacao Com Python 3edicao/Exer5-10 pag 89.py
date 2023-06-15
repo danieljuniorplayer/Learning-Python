@@ -1,7 +1,7 @@
 '''Exercício 5.10 Modifique o programa anterior para que aceite respostas com letras
 maiúsculas e minúsculas em todas as questões.'''
-questao=1       #contador
-ponto=0
+questao=1       # contador
+ponto=0         # acumulador
 while questao <= 3:
     r = input(f'Qual a resposta da questão{questao}')
     if questao == 1 and (r == 'b' or r == 'B'):

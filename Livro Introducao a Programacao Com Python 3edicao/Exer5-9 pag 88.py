@@ -18,13 +18,13 @@ n1 = int(n1)
 n1 = int(input('\nQual o primeiro número'))
 n2 = int(input('Qual o segundo número'))
 #imprime a divisao inteira e o resto usando apenas (-) ou (+)
-q=0                     # Define o valor inicial de q (quociente)
-s=0                     # Define o valor inicial de s (subtraente)
+q=0                     # Define o valor inicial de q (quociente) / contador
+s=0                     # Define o valor inicial de s (subtraente) / acumulador
 while s <= n1:          # Enquanto n1 for menor que subtraente(s)...faça
     quociente = q       # Salva "q" em quociente, pois o "q" sofrerá alteração no incremento (q += 1)
-    resto = n1 - s      # Salva "n1 - s" em resto, pois o "s" sofre alteração no incremento (s += n2)
-    q += 1              # Incrementa "q = q + 1"
-    s += n2             # Incrementa "s = s + n2"
+    resto = n1 - s      # calculo pra descobrir o resto
+    q += 1              # Incrementa "q = q + 1" / contador
+    s += n2             # Incrementa "s = s + n2"/acumulador
 
 print(f'Quociente/Divisão inteira: {quociente}')
 print(f'Resto da divisão: {resto}')
