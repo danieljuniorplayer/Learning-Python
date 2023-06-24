@@ -1,17 +1,11 @@
 
 angulo = float(input('Digite o ângulo desse triângulo'))
-#seno = oposto/hipotenusa
-#cosseno = adjacente/hipotenusa
-#tangente = oposto/adjacente
+from math import sin, cos, tan, radians     # radiano é necessário para converter o grau
+seno = sin(radians(angulo))
+cosseno = cos(radians(angulo))
+tangente = tan(radians(angulo))
 
-from math import sin, cos, tan, radians
-
-rad = radians(angulo)
-seno = sin(rad)
-cosseno = cos(rad)
-tangente = tan(rad)
-
-print(f'seno: {seno}')
-print(f'cosseno: {cosseno}')
-print(f'tangente: {tangente}')
+print(f'seno: {seno:.2f}')
+print(f'cosseno: {cosseno:.2f}')
+print(f'tangente: {tangente:.2f}')
 
