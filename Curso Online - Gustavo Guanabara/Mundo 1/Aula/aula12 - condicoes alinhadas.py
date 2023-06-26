@@ -1,0 +1,1 @@
+nomr = str(input('Qual é seu nome?'))

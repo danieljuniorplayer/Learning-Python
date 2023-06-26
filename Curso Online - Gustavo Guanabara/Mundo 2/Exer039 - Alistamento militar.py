@@ -1,27 +1,23 @@
 from datetime import date
-print('Qual sua data de nascimento?')
-nasci = str(input('Escreva nesse formato dd/mm/aa:')).strip().split(sep='/')
+print('Qual sua data de nascimento?',end='')
+nasci = str(input('\033[37m(Ex: 10/10/2010)\033[m:')).strip().split(sep='/')
 hoje = str(date.today()).split(sep='-')[::-1]
-
 dia = int(hoje[0])-int(nasci[0])
 mes = int(hoje[1])-int(nasci[1])
 ano = int(hoje[2])-int(nasci[2])
-
-print(dia)
-print(mes)
-print(ano)
-idade=[dia,mes,ano]
-print(idade)
-
-
 if mes<0:
-    mes = mes*-1
+    mes*=-1
     ano-=1
 if dia<0:
-    dia = dia+30
+    dia+=30
     mes-=1
-idade=[dia,mes,ano]
-print(idade)
-if nasci == hoje:
-    print('certo',nasci + hoje)
+print(f'Você tem...\033[32m{ano} Anos\033[m, {mes} Mêses e {dia} Dias\n')
+if ano < 18:
+    print(f'Você não está apto para o alistamento militar,\n'
+          f'Faltando apenas \033[32m{18-ano} anos\033[m \n'
+          f'Seu alistamento será em \033[32m{int(hoje[2])+(18-ano)}\033[m')
+elif ano == 18:
+    print('Você deve se alista IMEDIATAMENTE')
+else:
+    print(f'O prezo do alistamento foi há \033[32m{ano-18}\033[m anos atrás')
 
