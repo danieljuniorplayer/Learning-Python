@@ -1,0 +1,10 @@
+a1 = int(input('Digite o primeiro termo da Progressão Aritmética: '))
+r = int(input('Digite a razão dessa Progressão: '))
+c=1
+p = a1
+print('Os 10 primeiros termos da PA:\n[',end='')
+while c <=10:
+    print(f'{p}',end='')
+    print(', 'if c <10 else ']',end='')
+    p = p + r
+    c+=1
